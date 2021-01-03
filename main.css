@@ -13,6 +13,7 @@ body {
 
 .ticker {
     font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
     width: 100%;
     display: flex;
     border-bottom: 4px solid #8e7dbe;
