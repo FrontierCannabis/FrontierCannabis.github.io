@@ -10,18 +10,24 @@ html {
 body {
     background-color: #f1e3d3;
 }
-
+.spacer {
+    width: 100%;
+    height: 10vh;
+}
 .ticker {
+    z-index: 0;
+    position: fixed;
     font-family: 'Public Sans', sans-serif;
     overflow-x: hidden;
     width: 100%;
     display: flex;
     border-bottom: 4px solid #8e7dbe;
     font-size: 3em;
+    
 }
 
 .ticker div {
-    z-index: 0;
+    
     color: #99c1b9;
     white-space: nowrap;
     text-transform: uppercase;
@@ -36,14 +42,12 @@ body {
 }
 
 .ticker div span {
-    z-index: 2;
+    
     -webkit-text-stroke: 2px #99c1b9;
     color: transparent;
 }
 
 .grid {
-    margin-top: 1em;
-    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 10fr;
@@ -63,7 +67,6 @@ body {
     width: 100%;
     padding: 10px;
     background-color: #d88c9a;
-    border-radius: 10px;
 }
 
 .picture {
