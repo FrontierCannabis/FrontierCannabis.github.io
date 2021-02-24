@@ -229,3 +229,24 @@ footer a:hover{
 
 }
 
+@media screen 
+    and (device-width:  360px)
+    and (device-height: 620px)
+    and (-webkit-device-pixel-ratio: 4){
+    .grid{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 3fr;
+        grid-template-areas: "title" "picture" "content";
+    }
+    .picture{
+        border-bottom: 10px solid var(--color3);
+        border-right: none;
+    }
+
+
+}
+
+
+
