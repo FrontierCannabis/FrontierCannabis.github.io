@@ -213,7 +213,7 @@ footer a:hover{
 
 /*******************************************************************************/
 
-@media screen and (max-width:  720px){
+@media screen and (max-width:  768px){
     .grid{
         display: flex;
         flex-direction: column;
